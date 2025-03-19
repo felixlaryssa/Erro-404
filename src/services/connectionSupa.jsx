@@ -1,1 +1,0 @@
-// nesse diretório ficam as conexões com APIs, exemplo: Supabase
