@@ -1,0 +1,1 @@
+// Nesse diretório ficam páginas, como a do Dicom, aqui montaremos a página da Dicom, utilizando os componentes
