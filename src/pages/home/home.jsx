@@ -20,6 +20,16 @@ export default function Home() {
 
   return (
     <div>
+      <h1>Google calendario </h1>
+    <iframe
+  src="https://calendar.google.com/calendar/embed?src=caio.duarte%40orcestra.com.br&ctz=America%2FSao_Paulo"
+  style={{ border: '0' }}  // Passando o estilo como objeto
+  width="400"
+  height="200"
+  frameBorder="0"  // Propriedade corrigida
+  scrolling="no"
+/>
+
       <h1>Dados da Tabela General:</h1>
       <ul>
         {generalData.map((item) => (
