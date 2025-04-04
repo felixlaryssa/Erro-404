@@ -1,29 +1,23 @@
 .welcome-banner {
-  background: var(--degrade-verde, linear-gradient(0deg, #3FCC10 0%, #3FCC10 100%));
-  color: white;
-  padding: 2rem;
-  border-radius: 14px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-bottom: 2rem;
-  margin-top: 150px;
-  width: 90%;
-  max-width: 1170px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 155px;
-  transition: all 0.3s ease;
+/* height: 155px; */
+justify-content: center;
+align-items: center;
+gap: 14px;
+align-self: stretch;
+border-radius: 16px;
+background:linear-gradient(0deg, #3FCC10 0%, #3FCC10 100%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+overflow: hidden;
 }
 
 .welcome-title {
   color: #FFF;
-  font-family: Ubuntu, sans-serif;
-  font-size: 2rem; /* Responsivo */
-  font-weight: 700;
-  line-height: 1.2;
- /* Centraliza o texto em telas pequenas */
-  width: 100%;
-  max-width: 362px; /* Limita a largura máxima */
+font-family: Ubuntu;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
 
 .banner-image-left,

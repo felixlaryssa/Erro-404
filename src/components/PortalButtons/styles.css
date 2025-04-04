@@ -1,81 +1,32 @@
 .portal-buttons-container {
-    position: fixed;
-    top: 40px;
-    right: 64px;
     display: flex;
-    gap: 21px;
-    align-items: center;
-    justify-content: center;
-    font-family: Arial, sans-serif;
-    z-index: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 21px;
-  }
-  
-  .portal-button {
-    /* padding: 6px 12px;
-    border: 1px solid #dcdcdc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    cursor: pointer;
-    font-size: 13px;
-    color: #333;
-    transition: all 0.2s ease;
-    white-space: nowrap; */
-    /* width: 48px;
-    height: 48px;
-    flex-shrink: 0;
-    aspect-ratio: 1/1; */
-    display: flex;
-    width: 57px;
-    height: 57px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 14px;
-    cursor: pointer;
-    border-radius: 160px;
-    background: var(--grey, #E5E5E5);
-  }
-  
-  .portal-button:hover {
-    background-color: #16831b;
-    transform: translateY(-1px);
-  }
-  
-  .orc-login-button {
-    background-color: #f5f5f5;
-    border-color: #e0e0e0;
-  }
-  
-  .orc-login-button:hover {
-    background-color: #e8e8e8;
-  }
-  
-  .google-drive-button {
-    background-color: #f5f5f5;
-    border-color: #e0e0e0;
-  }
-  
-  .google-drive-button:hover {
-    background-color: #e8e8e8;
-  }
-  
-  .weather-form-button {
-    background-color: #f5f5f5;
-    border-color: #e0e0e0;
-  }
-  
-  .weather-form-button:hover {
-    background-color: #e8e8e8;
-  }
+justify-content: center;
+align-items: center;
+gap: 21px;
+}
 
-  .button-icon {
+.portal-button {
+    display: flex;
+width: 57px;
+height: 57px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 100px;
+background:  #E5E5E5;
+border: none;
+}
+
+.portal-button:hover {
+    border: 1px #16831b;
+    background-color: var(--degrade-verde, linear-gradient(0deg, #3FCC10 0%, #3FCC10 100%));
+    transform: translateY(-1px);
+}
+
+.button-icon {
     width: 32px;
     height: 32px;
     object-fit: contain;
     display: block;
-  }
-  
+}

@@ -1,0 +1,40 @@
+.containerButtons{
+
+display: flex;
+height: 132px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+}
+.button{
+display: flex;
+justify-content: center;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+border-radius: 16px;
+
+}
+.buttonText{
+    color: #FFF;
+    font-family: Unbounded;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal; 
+}
+.buttonImg{
+    width: 120px;
+height: 120px;
+aspect-ratio: 120/120;
+}
+#btn-crono{
+    background: linear-gradient(270deg, #EF49AD 0%, #AE3FC2 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+#btn-drive{
+
+    background: linear-gradient(270deg, #FF8E05 0%, #FFEC2E 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

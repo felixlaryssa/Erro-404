@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import orcImage from '../../assets/orc.png'; // Importa a imagem
+import orcImage from '../../assets/orc.png'; 
 import patoImage from '../../assets/pato.png'; // Importa a imagem
 
 const WelcomeBanner = () => {

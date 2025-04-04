@@ -1,0 +1,81 @@
+.containerGeral {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.title {
+  color:  #003D0D;
+font-family: Unbounded;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.containerMomentForms {
+  list-style: none;
+  padding: 0;
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+
+/* .containerMomentForms li {
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 16px;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.key {
+padding: 8px 16px;
+justify-content: space-between;
+flex-direction: row;
+border-radius: 16px;
+border: 1px solid  #6A6A6A;
+background:  #E5E5E5;
+height: auto;
+  width: 100%;
+}
+.key a{
+  display: inline;
+}
+.containerMomentForms a:hover {
+  color: var(--verde-claro, #3fcc10);
+}
+
+.Date {
+  color: var(--grey-black, #6a6a6a);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Name {
+  /* color: var(--grey-black, #6a6a6a);
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; */
+  color: var(--verde-claro, #3FCC10);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.textForms{
+  width: 100%;
+}
