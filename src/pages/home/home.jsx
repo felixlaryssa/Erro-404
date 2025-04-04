@@ -3,6 +3,8 @@ import { supabase } from "../../services/supabaseClient";
 import { formatDate } from '../../utils/formatDate';
 import PortalButtons from '../../components/PortalButtons';
 import WelcomeBanner from '../../components/WelcomeBanner'; 
+import MomentForms from "../../components/MomentForms";
+import "../../components/styles.css";
 // import PortalOrc from '../../components/PortalOrc'; 
 import './home.css';
 
@@ -31,7 +33,7 @@ export default function Home() {
       {/* Seção de boas-vindas */}
       <WelcomeBanner />
 
-
+      <MomentForms />
 
       {/* Conteúdo existente */}
       <div className="content-container">
@@ -45,16 +47,7 @@ export default function Home() {
           scrolling="no"
         />
 
-    <div className="tituloForms">
-      <h1>Forms do Momento:</h1>
-      <ul>
-        {generalData.map((item, index) => (
-          <li key={index}>
-            <strong>{item.name}</strong> - <a href={item.link} target="_blank" rel="noopener noreferrer">Link</a> - {formatDate(item.date)}
-          </li>
-        ))}
-      </ul>
-    </div>
+    
 
       </div>
     </div>
