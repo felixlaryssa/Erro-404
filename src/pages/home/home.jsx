@@ -1,6 +1,7 @@
 import MomentForms from "../../components/MomentForms";
-import "../../components/styles.css"
-
+import "../../components/styles.css";
+import Menu
+ from "../../components/Menu";
 export default function Home() {
   return (
     <div>
