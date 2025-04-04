@@ -1,0 +1,19 @@
+.welcome-banner {
+  background: var(--degrade-verde, linear-gradient(0deg, #3FCC10 0%, #3FCC10 100%));
+    color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .welcome-title {
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 362px;
+  }
+  
